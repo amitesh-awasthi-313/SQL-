@@ -1,0 +1,45 @@
+running the sqlite querry [ ctrl + shift + q]
+
+
+
+select :: comand is used for selecting the targeted data base 
+
+from :: comand is used for selecting the data from the specific data base 
+
+* ::  is used for selecting the whole data set from the database 
+
+where :: comand is used for conditioning the data set selection 
+
+and , or :: these are the co dtioning operators 
+
+like :: the comand used for slecting the data set having the data similar to the queery 
+
+% :: this sign is used for the neglaction of the remaining secton of the strng
+ 
+example ::::::
+        select * 
+        from people 
+        where first_name like "C%';
+
+limit :: limit command used to limit the no of outcomes 
+
+offset :: offset command used to create the range of the no of outcomes 
+
+exmaple :: 
+        select * 
+        from people 
+        where first_name like "C%'
+        limit 5 offset  10 ;
+        
+        #in this code it will print(upcoming 10 entries after first 5 antries means 6th to 16th entry will 
+        be printed)
+
+
+ASC :: used for assending order 
+
+DESC :: used for descending order 
+
+order by :: command is used for sorting the data using field_name and order ( desc/asc)
+
+distinct :: distinct function is used for finding the distinct values in the coloumn 
+
